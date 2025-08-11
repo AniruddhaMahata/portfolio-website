@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Aniruddha's portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/71c78456c9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi , I'am<span> Aniruddha </span> <br>Mahata from India</h1>
+            </div>
+        </div>
+        
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>I'm a Computer Science and Engineering graduate from IEM Kolkata, with a specialization in IoT, Cybersecurity, and Blockchain Technology. I'm passionate about web design and software engineering, and I enjoy creating secure, user-friendly, and innovative digital solutions.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Courses')">Courses</p>
+                        <p class="tab-links"onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/app interfaces</li>
+                            <li><span>Web Development</span><br>web app development</li>
+                            <li><span>Machine Learning</span><br>machine learning algorithms</li>
+                        </ul>
+                    </div>
+                     <div class="tab-contents" id="Courses">
+                        <ul>
+                            <li><span>AI google essentials</span><br>google certification from courera</li>
+                            <li><span>Phyton and java courses</span><br>powered by IBM courera</li>
+                            <li><span>Machine learning course by IBM</span><br>IBM certified course</li>
+                        </ul>
+                    </div>
+                     <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2026</span><br>Completed btech in CSE[IOTCSBT] from IEM Kolkata</li>
+                            <li><span>2022</span><br>Completed 12th from Delhi Public School ,Durgapur</li>
+                            <li><span>2020</span><br>completed 10th from DPS Durgapur</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----services------------------------------------------>
+    <div id="services">
+        <div class="container">
+             <h1 class="sub-title">My Services</h1>
+             <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I specialize in providing high-quality front-end and back-end development services tailored to meet the unique needs of IT companies and agencies, as well as businesses seeking freelance expertise</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-react"></i>
+                    <h2>React js</h2>
+                    <p>I help businesses, agencies, and tech-forward brands stand out with visually stunning, interactive 3D websites that go beyond the ordinary. From smooth user interfaces to dynamic 3D visuals, I bring ideas to life in ways that captivate and engage modern audiences.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-object-ungroup"></i>
+                    <h2>UI/Ux Design</h2>
+                    <p>a passionate UI/UX designer dedicated to crafting clean, functional, and visually compelling digital interfaces that put users first.I help startups, businesses, and agencies transform ideas into seamless user experiences — from concept to final design — ensuring every interaction feels intuitive, engaging, and on-brand.</p>
+                    <a href="#">Learn more</a>
+                </div>
+             </div>
+        </div>
+    </div>
+    <!--------------------------portfolio---------------------------->
+    <div id="portfolio">
+        <div class="container">
+             <h1 class="sub-title">My Work</h1> 
+             <div class="work-list">
+                <div class="work">
+                    <img src="images/rag.png" >
+                    <div class="layer">
+                        <h3>E-finance by RAG</h3>
+                        <p>Introducing a next-gen AI-powered chatbot designed with Retrieval-Augmented Generation (RAG) — built to deliver accurate, real-time, and context-aware insights on finance, investments, and the stock market.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                 <div class="work">
+                    <img src="images/restaurant.png" >
+                    <div class="layer">
+                        <h3>Responsive Restaurant Website</h3>
+                        <p>I help restaurants turn online visitors into loyal customers by designing websites that are visually appealing, easy to navigate, and optimized for all devices — mobile, tablet, or desktop.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                 <div class="work">
+                    <img src="images/weather.png" >
+                    <div class="layer">
+                        <h3>Weather dashboard using API integration</h3>
+                        <p>Whether you're planning your day, your trip, or just curious about the climate, our app gives you instant access to current conditions, hourly forecasts, and 7-day outlooks — all in a clean, user-friendly interface.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+             </div>
+             <a href="#" class="btn">See more</a>
+        </div>
+
+
+    </div>
+    <!----------------------------------contact-------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>animahata4@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 7908136141</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                         <a href=""><i class="fa-brands fa-facebook"></i></a>
+                          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                           <a href=""><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/ani-cv.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right"></div>
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>    
+                    <input type="text" name="email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        <div class="Copyright">
+            <p>Copyright nlfdnk <i class="fa-solid fa-heart"></i>nlknkln lnkn</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+         var tabcontents = document.getElementsByClassName("tab-contents");
+
+         function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+         }
+
+    </script>
+    <script>
+        var sidemenu =document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+          function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+
+
+    </script>
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycby9NXSJqIdsQkGidz2NhApUkOSy2jweG62j90hlxGIfscRLyFRp1kzxJSos1hf9IZTFjw/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent sucessfully"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
